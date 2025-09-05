@@ -14,7 +14,7 @@ grafana:
           uid: loki
           type: loki
           url: http://{{ .Release.Name }}-loki-gateway
-          isDefault: false
+          isDefault: true
         # https://grafana.com/docs/grafana/latest/datasources/prometheus/#provision-the-data-source
         # - name: Mimir
         #   uid: prom
